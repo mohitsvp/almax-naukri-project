@@ -32,3 +32,10 @@ PRD (Product Requirement Documentation)
 3. API Connections
 4. State Management Library
 
+
+===========
+
+Step 1 : Register on https://rapidapi.com/
+Step 2 : Search for API
+Step 3 : Subscribe in free plan to test
+

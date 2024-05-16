@@ -7,6 +7,7 @@ import { useState } from "react";
 import AuthNavbar from "./components/Navbar/AuthNavbar";
 import Register from "./page/Register";
 import Login from "./page/Login";
+import Jobs from "./page/Jobs";
 
 function App() {
   const [user, setUser] = useState(true);
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/register" element={<Register/>}/>
           <Route path="/login" element={<Login/>}/>
+          <Route path="/jobs" element={<Jobs/>}/>
         </Routes>
       </Wrapper>
       <Footer/>

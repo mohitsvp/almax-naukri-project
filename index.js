@@ -4,6 +4,7 @@ import cors from "cors";
 import connectDB from "./src/config/db.js";
 import userRouter from "./src/routes/user.routes.js";
 import cookieParser from "cookie-parser";
+import jobRouter from "./src/routes/job.routes.js";
 
 dotenv.config();
 
@@ -16,6 +17,7 @@ app.use(cookieParser());
 
 // Routes
 app.use("/api/user", userRouter);
+app.use("/api/job", jobRouter);
 
 app.get("/", (req, res) => {
     res.status(200).send("Welcome to the Job Portal")

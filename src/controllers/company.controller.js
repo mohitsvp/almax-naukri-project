@@ -1,4 +1,4 @@
-import Company from "../models/company.model"
+import Company from "../models/company.model.js"
 
 
 const getAllCompanies = async (req, res) => {

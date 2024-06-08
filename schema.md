@@ -36,3 +36,8 @@ Skills
 Job Category
 - id : ObjectID
 - name : String
+
+Company Applied
+- id : ObjectID
+- userId : ObjectId ref: User
+- job : ObjectId ref: Job
